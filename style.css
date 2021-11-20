@@ -1,6 +1,16 @@
 body{color: cornsilk;
-    background-color: cadetblue;}
-    h1{color: black;}
+    background-color: cadetblue;
+font-family:'Courier New', Courier, monospace;
+}
+    
+    h1{
+        font-family:cursive;
+        color: black;}
     h2{color: cyan;}
     #html-anatomy-heading{color: rgb(4, 120, 173);}
     #html-summary-heading{color: darkgoldenrod;}
+
+    .underline{text-decoration: underline;}
+    .bold{font-weight: bold;}
+
+    #introduction-ps{font-style: italic; font: size 0.5em;;}
