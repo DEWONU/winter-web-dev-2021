@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8"/>
+<title>Afro fem assignment1</title>
+</head>
+<body>
+    <h1>INTRODUCTION TO CSS</h1>
+    <P>CSS (Cascading Style Sheets) is the code that styles web content. For example How do I make text red? How do I make content display at a certain location in the (webpage) layout? </P>
+
+    <h2>What is CSS?</h2
+    
+    <p>CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. CSS is what you use to selectively style HTML elements. When using css to style a website it has to be applied to the html file.
+        <br>
+        <br>
+        To make the code work, we still need to apply th CSS (above) to your HTML document. Otherwise, the styling won't change the appearance of the HTML.
+<br>
+   <br> 
+   <br>
+   <ol>
+       <li>Open your index.html file. Paste the following line in the head (between the head and head tags):</li>
+       (link href="styles/style.css" rel="stylesheet") (However it has to be in between greater and lesser than tags.)
+       <li>Save index.html and load it in your browser.</li>
+<br>
+       P.S Only then will the effected style start to show on the webpage.
+   </ol>
+    </p>
+<h3>Anatomy of a CSS ruleset</h3>
+<img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png"
+width="500"
+alt="Anatomy of a css ruleset">
+
+<p>The rule set has 4 individual parts namely:
+    <ul>
+        <li>Selector :
+            This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled (in this example, "p" elements). To style a different element, change the selector.</li>
+                <li>Declaration :
+                    This is a single rule like color: red;. It specifies which of the element's properties you want to style.</li>
+                  <li>Properties :
+                    These are ways in which you can style an HTML element. (In this example, color is a property of the "p" elements.) In CSS, you choose which properties you want to affect in the rule.</li>
+                 <li>Property value
+                    To the right of the property—after the colon—there is the property value. This chooses one out of many possible appearances for a given property. (For example, there are many color values in addition to red.)</li>
+        
+    </ul>
+    <br>
+    <br>
+    NOTE: <ul>
+        <li>Apart from the selector, each ruleset must be wrapped in curly braces. ({})</li>
+        <li>Within each declaration, you must use a colon (:) to separate the property from its value or values.</li>
+        <li>Within each ruleset, you must use a semicolon (;) to separate each declaration from the next one.</li>
+    </ul>
+    <br>
+    <br>
+    <strong>Modification of multiple property values in a rule set can be achieved by using semi colons like this :</strong> 
+    <br>
+    p {
+        color: red;
+        width: 500px;
+        border: 1px solid black;}
+        <br>
+        <br>
+      <strong>Also multiple elements can be selected and a single rule set can be applied as in :</strong> 
+      p, li, h1 {
+        color: red; }
+<h4>Different Types of Selectors.</h4>
+<p>The examples above uses the "element selector". However, other selectors exist. For example
+<ul><li>ID selector: The element on the page with the specified ID.</li>
+<li>Class selector: The element(s) on the page with the specified class. Multiple instances of the same class can appear on a page.</li>
+<li>Others include: Attribute selector and Pseudo-class selector</li>
+
+</ul>
+
+<h2>Positioning, Styling, Fonts and text  </h2>
+<p>Fonts can be changed using font-size: 10px;
+    font-family: "Open Sans", sans-serif; eIn this section we also use:
+
+    <br>
+    <br>
+    <br>
+  OTHER ITEMS ON A PAGE CAN ALSO BE ADJUSTED e.g
+  <ul>
+   <li> width (of an element).</li>
+    <li>   background-color, the color behind an element's content and padding.</li>
+    <li>  color, the color of an element's content (usually text).</li>
+    <li>  text-shadow sets a drop shadow on the text inside an element.</li>
+   <li> display sets the display mode of an element.</li>
+ </ul>
+    </p>
+<h3>Summary</h3>
+<p>
+CSS is a style sheet used for making a desired visual for a web page.
+In this blog, we have discussed 
+<ol>
+<li> How to effect a css style sheet on an html code.</li>
+<li>The Css rule sets and its parts</li>
+<li>Different selector types</li>
+<li>The styling, positioning, fonts and text of a web page</li>
+
+Further learning resources can be found on <a target="blank" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS basics</a>
+
+</ol>
+</p>
+
+</p>
+
+
+</p>
+</body>
