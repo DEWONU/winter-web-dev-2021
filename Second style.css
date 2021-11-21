@@ -1,1 +1,19 @@
-body{}
+body{color: rgb(17, 17, 17);
+background-color: #d64e4e;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: oblique;
+font-size: large;
+background-size: contain;
+}
+h1{margin:2.5rem; padding: 20px 0; text-shadow: 3px 3px 1px 0 px lavenderblush;}
+.underline{text-decoration: underline;}
+#heading-what-is{color: burlywood;}
+#css-summary{color: coral;}
+
+#ruleset-parts-s{color: rgb(247, 242, 242);}
+#ruleset-parts-d{color: darkgrey;}
+#ruleset-parts-p{color: darkslateblue;}
+#ruleset-parts-pv{color: firebrick;}
+.bold{font-weight: bolder;}
+.color{color: khaki;}
+#introduction-ps{font-style: italic; font-weight: bold;color: khaki;

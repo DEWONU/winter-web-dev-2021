@@ -5,10 +5,10 @@
 <title>Afro fem assignment1</title> <link rel="stylesheet" href="Second style.css">
 </head>
 <body>
-    <h1>INTRODUCTION TO CSS</h1>
+    <h1 class="underline" >INTRODUCTION TO CSS</h1>
     <P>CSS (Cascading Style Sheets) is the code that styles web content. For example How do I make text red? How do I make content display at a certain location in the (webpage) layout? </P>
 
-    <h2>What is CSS?</h2
+    <h2 id="heading-what-is" >What is CSS?</h2
     
     <p>CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. CSS is what you use to selectively style HTML elements. When using css to style a website it has to be applied to the html file.
         <br>
@@ -22,33 +22,35 @@
        (link href="styles/style.css" rel="stylesheet") (However it has to be in between greater and lesser than tags.)
        <li>Save index.html and load it in your browser.</li>
 <br>
-       P.S Only then will the effected style start to show on the webpage.
+      <span id="introduction-ps">P.S Only then will the effected style start to show on the webpage.
+
+      </span> 
    </ol>
     </p>
-<h3>Anatomy of a CSS ruleset</h3>
+<h3 class="underline" >Anatomy of a CSS ruleset</h3>
 <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png"
 width="500"
 alt="Anatomy of a css ruleset">
 
 <p>The rule set has 4 individual parts namely:
     <ul>
-        <li>Selector :
+        <li> <span id="ruleset-parts-s">Selector :</span>  
             This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled (in this example, "p" elements). To style a different element, change the selector.</li>
-                <li>Declaration :
+                <li> <span id="ruleset-parts-d">Declaration :</span> 
                     This is a single rule like color: red;. It specifies which of the element's properties you want to style.</li>
-                  <li>Properties :
+                  <li> <span id="ruleset-parts-p">Properties :</span> 
                     These are ways in which you can style an HTML element. (In this example, color is a property of the "p" elements.) In CSS, you choose which properties you want to affect in the rule.</li>
-                 <li>Property value
+                 <li> <span id="ruleset-parts-pv"> Property value:</span>
                     To the right of the property—after the colon—there is the property value. This chooses one out of many possible appearances for a given property. (For example, there are many color values in addition to red.)</li>
         
     </ul>
     <br>
     <br>
-    NOTE: <ul>
+    <span class="bold color" >NOTE: <ul>
         <li>Apart from the selector, each ruleset must be wrapped in curly braces. ({})</li>
         <li>Within each declaration, you must use a colon (:) to separate the property from its value or values.</li>
         <li>Within each ruleset, you must use a semicolon (;) to separate each declaration from the next one.</li>
-    </ul>
+    </ul></span> 
     <br>
     <br>
     <strong>Modification of multiple property values in a rule set can be achieved by using semi colons like this :</strong> 
@@ -70,7 +72,7 @@ alt="Anatomy of a css ruleset">
 
 </ul>
 
-<h2>Positioning, Styling, Fonts and text  </h2>
+<h2 class="underline">Positioning, Styling, Fonts and text  </h2>
 <p>Fonts can be changed using font-size: 10px;
     font-family: "Open Sans", sans-serif; eIn this section we also use:
 
@@ -86,7 +88,7 @@ alt="Anatomy of a css ruleset">
    <li> display sets the display mode of an element.</li>
  </ul>
     </p>
-<h3>Summary</h3>
+<h3 id="css-summary" >Summary</h3>
 <p>
 CSS is a style sheet used for making a desired visual for a web page.
 In this blog, we have discussed 
