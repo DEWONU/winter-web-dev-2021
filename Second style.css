@@ -5,7 +5,7 @@ font-style: oblique;
 font-size: large;
 background-size: contain;
 }
-h1{margin:2.5rem; padding: 20px 0; text-shadow: 3px 3px 1px 0 px lavenderblush;}
+h1{margin:2.5rem; text-align: center; padding: 20px 0; text-shadow: 3px 3px 1px 0 px lavenderblush;}
 .underline{text-decoration: underline;}
 #heading-what-is{color: burlywood;}
 #css-summary{color: coral;}
